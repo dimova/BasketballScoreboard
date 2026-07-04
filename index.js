@@ -86,3 +86,10 @@ function newGame() {
     clearInterval(timerInterval)
     timerInterval = null
 }
+
+// Expose functions globally for onclick handlers
+window.updateScore = updateScore
+window.updateLeader = updateLeader
+window.nextQuarter = nextQuarter
+window.startTimer = startTimer
+window.newGame = newGame
